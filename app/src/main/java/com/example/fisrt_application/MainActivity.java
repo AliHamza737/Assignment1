@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        ListView listView=findViewById(R.id.letters);
+        ListView listView=findViewById(R.id.chrrr);
         ArrayList<String> ltr =new ArrayList<String>();
         char ch='A';
         for (int i = 1; i < 27; i++,ch++) {
